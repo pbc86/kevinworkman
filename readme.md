@@ -1,4 +1,4 @@
 # Jekyll totorial on Happy Coding by Kevin Workman
 
-Ken has a bunch of tutorial on his [website](https://happycoding.io/). Go to Tutorials tab, under HTML, you can find his [Jekyll Tutorial](https://happycoding.io/tutorials/html/jekyll).
+Kevin has a bunch of tutorial on his [website](https://happycoding.io/). Go to Tutorials tab, under HTML, you can find his [Jekyll Tutorial](https://happycoding.io/tutorials/html/jekyll).
 

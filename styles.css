@@ -3,6 +3,9 @@
     margin: auto;
     border: thin solid black;
     padding: 50px;
-    color: red
 
+}
+
+a {
+    color: #0000ee;
 }
