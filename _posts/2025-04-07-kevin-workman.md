@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Kevin Workman
+image: /images/kevin.png
 ---
 
 # Jekyll tutorial on Happy Coding by Kevin Workman
@@ -29,11 +30,6 @@ Remember to add a **dot** (`.`) just before the / to indicate parent folder inst
 35:10 - create `hike.html`  
 36:58 - taking index of posts from Jekyll Docs `for post in site.posts` 
 42:25 - convert `beach.html` to `beach.md`  
-
-
-
-
-
-
-
-
+44:30 - add image to the front matter  
+45:30 - update `index,.html` to display images
+46:30 - update `css` adding `thumpnail`

@@ -13,3 +13,15 @@ a {
 img {
     width: 500px;
 }
+
+.thumbnail {
+    border: thin solid black;
+    display: inline-block;
+    margin: 25px;
+    padding: 10px;
+}
+
+.thumbnail img {
+    width: 100px;
+    margin: 25px;
+}
