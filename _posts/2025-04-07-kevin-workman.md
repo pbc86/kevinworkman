@@ -15,8 +15,16 @@ Remember to add a **dot** (`.`) just before the / to indicate parent folder inst
 <a href="./index.html">Home</a>
 <a href="./contact.html">Contact</a>
 <a href="./beach.html">Beach</a>
-<a href=".{{ post.url }}">{{ post.title }}</a>
 
+```
+or   
+```liquid
+{ % for post in site.posts % }
+  <div class="thumbnail">
+    <h2><a href=".{{ post.url }}">{{ post.title }}</a></h2>
+    <img src="{{ post.image }}" />
+  </div>
+{ % endfor % }
 ```
 
 ### Timestamps:
