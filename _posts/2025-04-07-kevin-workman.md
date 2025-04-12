@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Kevin Workman
-image: /images/kevin.png
+image: ./images/kevin.png
 ---
 
 # Jekyll tutorial on Happy Coding by Kevin Workman
