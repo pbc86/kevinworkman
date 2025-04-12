@@ -10,14 +10,16 @@ Kevin has a bunch of tutorials on his [website](https://happycoding.io/). For Je
 
 Remember to add a **dot** (`.`) just before the / to indicate parent folder instead of root. For instance:
 
-```
+```html
 <link rel="stylesheet" type="text/css" href="./styles.css">
 <a href="./index.html">Home</a>
 <a href="./contact.html">Contact</a>
 <a href="./beach.html">Beach</a>
 
-```
-or   
+```  
+
+or
+
 ```liquid
 { % for post in site.posts % }
   <div class="thumbnail">
@@ -37,8 +39,9 @@ or
 32:30 - create _config.yml file and move the property `permalink`  
 33:10 - something broke
 35:10 - create `hike.html`  
-36:58 - taking index of posts from Jekyll Docs `for post in site.posts` 
+36:58 - taking index of posts from Jekyll Docs `for post in site.posts`  
 42:25 - convert `beach.html` to `beach.md`  
 44:30 - add image to the front matter  
 45:30 - update `index,.html` to display images
-46:30 - update `css` adding `thumpnail`
+46:30 - update `css` adding `thumpnail`  
+54:18 - behind the scence  
