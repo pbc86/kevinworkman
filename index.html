@@ -12,7 +12,7 @@ title: Home
 
 {% for post in site.posts %}
   <div class="thumbnail">
-    <h2><a href="kevinworkman/{{ post.url }}">{{ post.title }}</a></h2>
+    <h2><a href="/kevinworkman{{ post.url }}">{{ post.title }}</a></h2>
     <img src="{{ post.image }}" />
   </div>
 {% endfor %}
