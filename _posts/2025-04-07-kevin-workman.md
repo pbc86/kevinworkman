@@ -15,6 +15,7 @@ Remember to add a **dot** (`.`) just before the / to indicate parent folder inst
 <a href="./index.html">Home</a>
 <a href="./contact.html">Contact</a>
 <a href="./beach.html">Beach</a>
+<a href=".{{ post.url }}">{{ post.title }}</a>
 
 ```
 
